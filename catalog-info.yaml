@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: api-rhcp
   annotations:
+    backstage.io/techdocs-ref: dir:.
     github.com/project-slug: backstage-john/api-rhcp
 spec:
   type: other
