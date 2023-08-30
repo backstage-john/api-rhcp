@@ -128,3 +128,30 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore the following files (do not commit working files to repository)
+
+# Ignore temporary files from editors
+
+# vi/vim
+*.swp
+*.swo
+
+# Ingore the dynamic MkDocs site folder
+
+mkdocs-project/site/
+
+# Office temporary files
+
+*.tmp
+
+# Word
+#~$*.doc*
+# Excel
+#~$*.xls*
+# PowerPoint
+#~$*.ppt*
+~$*
+
+# JetBrains
+.idea/*
